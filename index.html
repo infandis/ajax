@@ -7,7 +7,11 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>Погода у Львові зараз:</h1>
+    <form id="cityForm">
+        <label for="cityInput">Введіть назву міста:</label>
+        <input type="text" id="cityInput">
+        <button type="submit">Отримати погоду</button>
+    </form>
     <div id="weather"></div>
     <script src="main.js"></script>
 </body>
